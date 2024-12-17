@@ -1,0 +1,4 @@
+{:deps {org.typedclojure/typed.clj.runtime {:mvn/version "1.2.1"}}
+ :aliases {:dev {:extra-deps {org.typedclojure/typed.clj.checker {:mvn/version "1.2.1"}}}}
+ :paths ["src"]
+ :main-opts ["-m" "project.core"]}
